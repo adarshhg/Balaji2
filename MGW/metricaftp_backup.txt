@@ -1,0 +1,38 @@
+vsnluser1
+vsnluser1
+bi
+ha
+prom
+cd /metrica/webserver/NPR1/data/pregen/mgw/daily/m3uaas
+mget VSNL_M3UAAS_Delhi_02282011_DAILY.csv
+mget VSNL_M3UAAS_BangaloreMSG9000_02282011_DAILY.csv
+mget VSNL_M3UAAS_AHM_02282011_DAILY.csv
+mget VSNL_M3UAAS_kolkota_02282011_DAILY.csv
+mget VSNL_M3UAAS_Mumbai_02282011_DAILY.csv
+mget VSNL_M3UAAS_Jalandhar_02282011_DAILY.csv
+mget VSNL_M3UAAS_HYD_02282011_DAILY.csv
+
+
+
+cd /metrica/webserver/NPR1/data/pregen/mgw/daily/mgperf
+mget VSNL_MGPERF_Jalandhar_02282011_DAILY.csv
+mget VSNL_MGPERF_HYD_02282011_DAILY.csv
+mget VSNL_MGPERF_Delhi_02282011_DAILY.csv
+mget VSNL_MGPERF_AHM_02282011_DAILY.csv
+mget VSNL_MGPERF_BangaloreMSG9000_02282011_DAILY.csv
+mget VSNL_MGPERF_kolkota_02282011_DAILY.csv
+mget VSNL_MGPERF_Mumbai_02282011_DAILY.csv
+
+cd /metrica/webserver/NPR1/data/pregen/mgw/daily/ss7link
+mget VSNL_SS7LINK_BangaloreMSG9000_02282011_DAILY.csv
+mget VSNL_SS7LINK_AHM_02282011_DAILY.csv
+mget VSNL_SS7LINK_Mumbai_02282011_DAILY.csv
+mget VSNL_SS7LINK_Jalandhar_02282011_DAILY.csv
+mget VSNL_SS7LINK_HYD_02282011_DAILY.csv
+mget VSNL_SS7LINK_Delhi_02282011_DAILY.csv
+mget VSNL_SS7LINK_kolkota_02282011_DAILY.csv
+
+
+bye
+
+

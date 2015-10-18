@@ -1,0 +1,16 @@
+vsnluser1
+vsnluser1
+bi
+ha
+prom
+cd /metrica/webserver/NPR1/data/pregen/daily
+mget SRCUSR1R2.csv
+mget SRCUSR2R3.csv
+cd /apps1/va/NGN/rawdata/mail/daily/tgroup/
+mget tgroupcomplete.csv
+cd /apps1/va/NGN/rawdata/mail/daily/summary/
+mget Daily_Summary_Report.csv
+cd /apps1/va/NGN/rawdata/mail/daily/procload
+mget procload.csv
+bye
+

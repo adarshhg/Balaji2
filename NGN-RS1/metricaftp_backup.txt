@@ -1,0 +1,39 @@
+vsnluser1
+vsnluser1
+bi
+ha
+prom
+cd /metrica/webserver/NPR1/data/pregen/ngn/daily/destcode
+mget VSNL_DESTCODE_Mumbai_10102011_DAILY.csv
+mget VSNL_DESTCODE_Delhi_10102011_DAILY.csv
+mget VSNL_DESTCODE_Chennai_10102011_DAILY.csv
+
+cd /metrica/webserver/NPR1/data/pregen/ngn/daily/dispersion
+mget VSNL_DISPERSION1_Mumbai_10102011_DAILY.csv
+mget VSNL_DISPERSION1_Delhi_10102011_DAILY.csv
+mget VSNL_DISPERSION1_Chennai_10102011_DAILY.csv
+
+cd /metrica/webserver/NPR1/data/pregen/ngn/daily/megaco
+mget VSNL_MEGACO_Mumbai_10102011_DAILY.csv
+mget VSNL_MEGACO_Delhi_10102011_DAILY.csv
+mget VSNL_MEGACO_Chennai_10102011_DAILY.csv
+
+cd /metrica/webserver/NPR1/data/pregen/ngn/daily/procload
+mget VSNL_PROCESSORLOAD_Mumbai_10102011_DAILY.csv
+mget VSNL_PROCESSORLOAD_Delhi_10102011_DAILY.csv
+mget VSNL_PROCESSORLOAD_Chennai_10102011_DAILY.csv
+
+cd /metrica/webserver/NPR1/data/pregen/ngn/daily/sip
+mget VSNL_SIP_Mumbai_10102011_DAILY.csv
+mget VSNL_SIP_Delhi_10102011_DAILY.csv
+mget VSNL_SIP_Chennai_10102011_DAILY.csv
+
+cd /metrica/webserver/NPR1/data/pregen/ngn/daily/tgroup
+mget VSNL_TGROUP_Mumbai_10102011_DAILY.csv
+mget VSNL_TGROUP_Delhi_10102011_DAILY.csv
+mget VSNL_TGROUP_Chennai_10102011_DAILY.csv
+
+
+bye
+
+
